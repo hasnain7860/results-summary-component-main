@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Hanken+Grotesk:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Hanken Grotesk', sans-serif;
+
+}
+.main{
+   display: flex;
+   
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+   
+   
+}
+.super{
+
+   height: 400px;
+   display: flex;
+   background-color: white;
+   border: none;
+  border-radius: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
+}
+.firstBox{
+   background: linear-gradient(180deg, hsl(252, 100%, 67%) 1%, hsl(241, 81%, 54%) 99%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-basis: 50%;
+   padding: 0px 20px 20px 20px;
+   height: 100%;
+   border: none;
+   border-radius: 15px;
+   color: hsl(241, 100%, 89%);
+   
+}
+.secondBox{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+   flex-basis: 50%;
+   padding: 20px;
+   height: 100%;
+   border: none;
+   border-radius: 15px;
+}
+.tenMargin{
+   margin: 10px 0px;
+}
+.twentyMargin{
+   margin: 10px 0px;
+}
+.left-side{
+   display: flex;
+   justify-content: space-between;
+  align-items: center;
+   margin: 5px 0px;
+   border-radius: 5px;
+   color: hsl(241, 100%, 89%);
+   font-weight: 600;
+   padding: 10px 5px;
+   width: 90%;
+   margin-left: 5px;
+   
+}
+.summary{
+   margin: 5px;
+   margin-bottom: 25px;
+   font-size: 20px;
+   text-align: left;
+}
+
+.left-side p span {
+   color: hsl(224, 30%, 27%);
+}
+.box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.box span{
+   margin-left: 2px;
+}
+.btn{
+   padding: 10px 0px;
+  width: 80%;
+   border-radius: 20px ;
+   background: hsl(224, 30%, 27%);
+   border: none;
+   margin: 10px 0px;
+   text-align: center;
+   cursor: pointer;
+   font-size: 18px;
+   color: white;
+  
+   
+}
+.circle{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+   border-radius: 50%;
+   width: 120px;
+   height: 120px;
+  
+  /* CSS - (CodeMeToo - Gradient Creator) */ 
+
+/* Chrome 10-25, Safari 5.1-6 */
+
+background: -webkit-linear-gradient(180deg, #3e00b5, #003fff);
+
+/* W3C, Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: linear-gradient(180deg, #3e00b5, #003fff);
+
+  
+}
+.res{
+   font-size: 20px;
+}
+.circle p {   
+   font-size: 50px;
+   font-weight: bold;
+   
+}
+.white{
+   color: white;   
+}
+.great{
+   font-size: 26px;
+   color: white;
+   font-weight: bolder;
+}
+.pink{
+   background-color: hsla(0, 100%, 67%, 0.1);
+}
+.yellow {
+   background-color: hsla(39, 100%, 56%, 0.1);
+}
+.green{
+   background-color: hsla(166, 100%, 37%, 0.1);
+}
+.purple{
+   background-color: hsla(234, 85%, 45%, 0.1);
+}
+#rec{
+   color: hsl(0, 100%, 67%);
+}
+#memory{
+  color: hsl(39, 100%, 56%);
+}
+#verbal{
+   color: hsl(166, 100%, 37%);
+}
+#visual{
+   color: hsl(234, 85%, 45%);
+}
+.but{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   
+}
+
+@media only screen and (max-width: 9999999px){
+ .main{
+  
+ }
+ .super{
+    width: 600px;
+    
+ }  
+}
+
+@media only screen and (max-width: 375px) {
+.main{
+   display: flex;   
+   height: 105vh;
+   
+}
+.super{ 
+   flex-direction: column;
+   background-color: white;
+   height: 105vh;
+   margin-bottom: 20px;
+  
+}
+   
+}
